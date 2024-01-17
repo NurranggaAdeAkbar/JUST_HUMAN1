@@ -11,6 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scripts": {
+      "start": "npx expo start"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -21,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nurrangga.sisteminventorygudang"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e75c067-47f3-49c4-baba-fd64ef4c5171"
+      }
     }
   }
 }
